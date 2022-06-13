@@ -1,12 +1,12 @@
 // import Head from 'next/head'
 // import Image from 'next/image'
-import Footer from "../components/Footer"
+// import Footer from "../components/Footer"
 import Footer2 from "../components/Footer2"
-import Hero2 from "../components/Hero2"
-import Hero from "../components/Hero"
+// import Hero2 from "../components/Hero2"
+// import Hero from "../components/Hero"
 import TailHero from "../components/TailHero"
-import Price from "../components/Price"
-import Price2 from "../components/Price2"
+// import Price from "../components/Price"
+// import Price2 from "../components/Price2"
 import PricingMamba from "../components/PricingMamba"
 
 

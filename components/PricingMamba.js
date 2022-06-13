@@ -45,8 +45,8 @@ const PricingMamba = () => {
                     </div>
 
                     {/*  */}
-                    <div className="w-full mb-8 sm:px-4 md:w-1/2 lg:w-1/3 lg:mb-0">
-                        <div className="p-6 space-y-6 rounded-3xl sm:p-8 border-gray-100 m-auto border-2 shadow-lg  md:shadow-2xl">
+                    <div className="w-11/12 m-auto  mb-8 sm:px-4 md:w-1/2 lg:w-1/3 lg:mb-0  ">
+                        <div className="p-6 space-y-6 rounded-3xl sm:p-8 border-indigo-600 m-auto border-2 shadow-lg  md:shadow-2xl">
                             <div className="space-y-2">
                                 <h4 className="text-2xl font-bold">Team</h4>
                                 <span className="text-6xl font-bold">$72
@@ -86,7 +86,7 @@ const PricingMamba = () => {
                                     <span>Vivamus ut lectus ex</span>
                                 </li>
                             </ul>
-                            <button type="button" className="btn w-full  bg-indigo-500 border-none">Get Started</button>
+                            <button type="button" className="btn w-full bg-indigo-600 border-none">Get Started</button>
                         </div>
                     </div>
                     {/*  */}

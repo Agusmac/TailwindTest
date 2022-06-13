@@ -12,9 +12,9 @@ const PricingMamba = () => {
 
                 <div className="flex flex-wrap items-stretch -mx-4  ">
 
-
+                    {/*  */}
                     <div className="flex w-full mb-8 sm:px-4 md:w-1/2 lg:w-1/3 lg:mb-0 ">
-                        <div className="flex flex-col p-6 space-y-6 rounded sm:p-8 border-2 border-gray-100 m-auto  shadow-md  md:shadow-2xl">
+                        <div className="flex flex-col p-6 space-y-6 rounded sm:p-8 border border-gray-100 m-auto  shadow-md  md:shadow-2xl">
                             <div className="space-y-2">
                                 <h4 className="text-2xl font-bold">Beginner</h4>
                                 <span className="text-6xl font-bold">Free</span>
@@ -44,48 +44,9 @@ const PricingMamba = () => {
                         </div>
                     </div>
 
-
-
-                    <div className="flex w-full mb-8 sm:px-4 md:w-1/2 lg:w-1/3 lg:mb-0">
-                        <div className="flex flex-col p-6 space-y-6 rounded  sm:p-8  border border-gray-100 m-auto shadow-md  md:shadow-2xl">
-                            <div className="space-y-2">
-                                <h4 className="text-2xl font-bold">Pro</h4>
-                                <span className="text-6xl font-bold">$24
-                                    <span className="text-sm tracking-wide">/month</span>
-                                </span>
-                            </div>
-                            <p className="leading-relaxed">Morbi cursus ut sapien sit amet consectetur.</p>
-                            <ul className="flex-1 space-y-2">
-                                <li className="flex items-center space-x-2">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6">
-                                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
-                                    </svg>
-                                    <span>Everything in Free</span>
-                                </li>
-                                <li className="flex items-center space-x-2">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6">
-                                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
-                                    </svg>
-                                    <span>Phasellus tellus</span>
-                                </li>
-                                <li className="flex items-center space-x-2">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6">
-                                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
-                                    </svg>
-                                    <span>Praesent faucibus</span>
-                                </li>
-                                <li className="flex items-center space-x-2">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6">
-                                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
-                                    </svg>
-                                    <span>Aenean et lectus blandit</span>
-                                </li>
-                            </ul>
-                            <button type="button" className="btn">Get Started</button>
-                        </div>
-                    </div>
+                    {/*  */}
                     <div className="w-full mb-8 sm:px-4 md:w-1/2 lg:w-1/3 lg:mb-0">
-                        <div className="p-6 space-y-6 rounded sm:p-8 shadow-xl border border-gray-100 m-auto">
+                        <div className="p-6 space-y-6 rounded-3xl sm:p-8 border-gray-100 m-auto border-2 shadow-lg  md:shadow-2xl">
                             <div className="space-y-2">
                                 <h4 className="text-2xl font-bold">Team</h4>
                                 <span className="text-6xl font-bold">$72
@@ -125,9 +86,53 @@ const PricingMamba = () => {
                                     <span>Vivamus ut lectus ex</span>
                                 </li>
                             </ul>
-                            <button type="button" className="btn w-full bg-indigo-500 border-none">Get Started</button>
+                            <button type="button" className="btn w-full  bg-indigo-500 border-none">Get Started</button>
                         </div>
                     </div>
+                    {/*  */}
+                    <div className="flex w-full mb-8 sm:px-4 md:w-1/2 lg:w-1/3 lg:mb-0">
+                        <div className="flex flex-col p-6 space-y-6 rounded  sm:p-8  border border-gray-100 m-auto shadow-md  md:shadow-2xl">
+                            <div className="space-y-2">
+                                <h4 className="text-2xl font-bold">Pro</h4>
+                                <span className="text-6xl font-bold">$24
+                                    <span className="text-sm tracking-wide">/month</span>
+                                </span>
+                            </div>
+                            <p className="leading-relaxed">Morbi cursus ut sapien sit amet consectetur.</p>
+                            <ul className="flex-1 space-y-2">
+                                <li className="flex items-center space-x-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6">
+                                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
+                                    </svg>
+                                    <span>Everything in Free</span>
+                                </li>
+                                <li className="flex items-center space-x-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6">
+                                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
+                                    </svg>
+                                    <span>Phasellus tellus</span>
+                                </li>
+                                <li className="flex items-center space-x-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6">
+                                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
+                                    </svg>
+                                    <span>Praesent faucibus</span>
+                                </li>
+                                <li className="flex items-center space-x-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6">
+                                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
+                                    </svg>
+                                    <span>Aenean et lectus blandit</span>
+                                </li>
+                            </ul>
+                            <button type="button" className="btn">Get Started</button>
+                        </div>
+                    </div>
+
+                    {/*  */}
+
+
+                    {/*  */}
                 </div>
             </div>
         </section>
